@@ -25,7 +25,7 @@ class Game {
 
   this.world = new Point(-1200, -600); // Reset world position
 
-  this.snakes[0] = new Snake(this.ctxSnake, "Bibhuti", 0);
+  this.snakes[0] = new Snake(this.ctxSnake, "YOU", 0);
   for (var i = 0; i < 10; i++) this.addSnake(ut.randomName(), 100);
   this.generateFoods(1000);
 
